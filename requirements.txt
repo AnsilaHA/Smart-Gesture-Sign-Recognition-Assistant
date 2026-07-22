@@ -1,0 +1,8 @@
+streamlit
+opencv-python
+mediapipe
+tensorflow
+pyttsx3
+numpy
+scikit-learn
+pywin32
