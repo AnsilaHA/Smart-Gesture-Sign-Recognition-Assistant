@@ -3,8 +3,6 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 import os
 
-
-
 DATASET_DIR = "dataset"
 
 def get_classes():
