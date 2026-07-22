@@ -117,7 +117,7 @@ def draw_skeleton_on_black(rgb_image, detection_result):
     return black_image
 
 def extract_hand_roi(frame, hand_landmarks):
-    h, w, _ = frame.shape
+    h, w, _ = frame.shape 
     x_min, y_min = w, h
     x_max, y_max = 0, 0
     for lm in hand_landmarks:
